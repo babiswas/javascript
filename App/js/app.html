@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Cart</title>
+   <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+   <div id="header">
+       <div id="banner">
+           <center><h1>Dairy Shop</h1></center>
+       </div>
+   <div>
+   <div id="alert">
+   </div>
+   <div id="products">
+      <center><h2 style="color:green;">Select Items</h2></center>
+      <hr>
+      <center>
+      <div class="productitem">
+         <div class="product">
+            <h2>Milk</h2>
+            <button class="sbutton" id="milk">Add</button>
+         </div>
+           <center><p><strong>Price:</strong>Rs20</p></center>
+      </div>
+      <div class="productitem">
+         <div class="product">
+            <h2>Ghee</h2>
+            <button class="sbutton" id="ghee">Add</button>
+         </div>
+            <center><p><strong>Price:</strong>Rs20</p></center>
+      </div>
+      <div class="productitem">
+         <div class="product">
+            <h2>Butter</h2>
+            <button class="sbutton" id="butter">Add</button>
+         </div>
+             <center><p><strong>Price:</strong>Rs20</p></center>
+      </div>
+      <div class="productitem">
+         <div class="product">
+            <h2>Cheese</h2>
+            <button class="sbutton" id="cheese">Add</button>
+         </div>
+           <center><p><strong>Price:</strong>Rs20</p></center>
+      </div>
+      </center>
+      <hr>
+   </div>
+   <div class="cart">
+          <center><h3>Shopping Cart</h3></center>
+   </div>
+       <div>
+          <center><button class="sbutton" id="showbill">Bill</button></center>
+          <center><button class="sbutton" id="cleartable" style="margin-top:40px;">Clear</button></center>
+       </div>
+   <center>
+   <table id="bill">
+       <tr id="tableheader">
+          <th>
+             Product 
+          </th>
+          <th>
+             Quantity
+          </th>
+          <th>
+             Total
+          </th>
+       </tr>
+   </table>
+   </center>
+   <script src="js/app.js"></script>
+</body>
+</html>
